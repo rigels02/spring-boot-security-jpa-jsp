@@ -6,13 +6,16 @@ Spring Data, JPA and H2 DB.
 
 Setup
 -----
-1. Create project by using Spring Boor Initializer. 
+1. Create project by using Spring Boor Initializer.
 
    a) the following technologies should be selected:
-      Web, JPA, Security, H2 db
+
+        Web, JPA, Security, H2 db
+
 2. Modify pom.xml by adding dependencies.
 
     a) add dependencies to support JSP and JSTL
+    
         <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
